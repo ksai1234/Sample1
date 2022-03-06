@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-color: #f1f1f1;
+}
+h1{
+    font-family: 'Readex Pro', sans-serif;
+    color:#ff3700;
+}
+nav{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    height: 50px;
+    
+}
+nav div ul{
+    display:flex;
+    list-style-type:none;
+    float:right;
+    margin-right: 30px;
+    margin-top:15px;
+}
+ul li a{
+    text-decoration: none;
+    padding:8px;
+    color:white;
+    display:block;
+    
+}
+li a:hover{
+    background-color:#ff3000;
+    color:white;
+    
+}
+.head{
+    background-color:indigo;
+    width:auto;
+    height:150px;
+    color:white;    
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+
+
+}
+.head img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:4px solid rgb(33, 211, 77);
+    float: right;
+    margin-top: 20px;
+    margin-right:50px;
+}
+.edu{
+    margin-top: 10px;
+    margin-left: 15px;
+    
+}
+.edu h2{
+    text-decoration: underline;
+    
+}
+.edu h3{
+    text-decoration: underline;
+    
+}
+.edu h3{
+    padding-bottom: 6px;
+}
+.skills h2{
+    color:rgb(18, 221, 187);
+    text-decoration: underline;
+   
+}
+.skills{
+    margin-top:-575px;
+    margin-left: 900px;
+}
+.skls{
+    display:flex;
+    padding:5px;
+}
+.skls div{
+    background-color: indigo;
+    padding:6px;
+    border:2px solid white;
+    border-radius: 8px;
+    color:white;
+    font-family: 'League Gothic', sans-serif;
+}
+.interest{
+    display:flex;
+}
+.interest div{
+    background-color: indigo;
+    padding:6px;
+    border:2px solid white;
+    border-radius: 8px;
+    color:white;
+    font-family: 'League Gothic', sans-serif;
+    
+}
+.hobbies p{
+    font-family: 'Raleway', sans-serif;
+}
+.contact{
+    background-color:indigo;
+    width:auto;
+    height:300px;
+    box-shadow: 10px 10px 10px gray;
+    margin-right: 20px;
+    padding: 10px;
+}
+.contact h2{
+    color:white;
+    text-align: center;
+    padding: 5px;
+}
+.contact span{
+    color:white;
+}
+.Linkdin a{
+    color:white;
+    text-decoration: none;
+    
+}
+.insta a{
+    color:white;
+    text-decoration: none;
+}
+.copyright{
+    margin-left: 500px;
+    
+}
+.cert{
+    color: black;
+}
+.cert:hover{
+    color:#ff3700;
+}
+.res{
+    color:white;
+    
+    padding:5px;
+    text-decoration: none;
+    border:3px solid #ff3700;
+    border-radius: 8px;
+    
+}
+.res:hover{
+    
+    background-color: #ff3700;
+}
+.insta a:hover{
+    color:#ff3700;
+}
+.Linkdin a:hover{
+    color:#ff3700;
+}
+.contact h2{
+    border:3px solid #ff3700;
+    width:200px;
+    justify-content: center;
+    margin-left: 500px;
+    border-radius: 6px;
+    background-color: #ff3700;
+}
+.email a{
+    text-decoration: none;
+    color:#f1f1f1;
+}
+.email a:hover{
+    color:#ff3700;
+}
+
+@media screen and (max-width:480px) {
+   
+    .head{
+        background-color: indigo;
+        width: auto;
+        overflow: hidden;
+
+    }
+    .head img{
+        margin-top:18px;
+        margin-right:10px;
+    }
+    nav{
+        width:auto;
+    }
+    .skills{
+        margin-top:20px;
+        margin-left: 20px;
+        padding:0px;
+        
+    }
+    .skls{
+        float:left;
+        margin-right:8px;
+        padding: 5px;
+    }
+    .contact{
+        width:auto;
+        height:290px;
+        
+    }
+    .copyright{
+        margin-left: 0px;
+     }
+    .contact h2{
+        margin-left: 0px;
+    }
+    
+    
+}
